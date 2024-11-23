@@ -1,0 +1,50 @@
+Microsoft Windows [Version 10.0.19045.5131]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin>cd C:\Users\Admin\Desktop\Devops 1 internal
+
+C:\Users\Admin\Desktop\Devops 1 internal>git init
+Initialized empty Git repository in C:/Users/Admin/Desktop/Devops 1 internal/.git/
+
+C:\Users\Admin\Desktop\Devops 1 internal>git add .
+
+C:\Users\Admin\Desktop\Devops 1 internal>git commit -m "message"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-KHS9B2I.(none)')
+
+C:\Users\Admin\Desktop\Devops 1 internal>git config --global user.email "22h51a0531@cmrcet.ac.in"
+
+C:\Users\Admin\Desktop\Devops 1 internal>git config --global user.name "Kartik108-04"
+
+C:\Users\Admin\Desktop\Devops 1 internal>git commit -m "message"
+[master (root-commit) 8fddf8e] message
+ 2 files changed, 19 insertions(+)
+ create mode 100644 Registeration.html
+ create mode 100644 script.js
+
+C:\Users\Admin\Desktop\Devops 1 internal>git branch -M main
+
+C:\Users\Admin\Desktop\Devops 1 internal>git remote add origin https://github.com/Kartik108-04/internal01.git
+
+C:\Users\Admin\Desktop\Devops 1 internal>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 839 bytes | 419.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Kartik108-04/internal01.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
